@@ -1,0 +1,96 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(239, 239, 239);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header{
+    display: block;
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+h1, h2{
+    font-family: Georgia, serif;
+}
+img{
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.first-img{
+    float: right;
+    margin-left: 25px;
+    max-width: 120px;
+    margin-top: 5px;
+
+}
+.second-img{
+    float: left;
+    margin-right: 25px;
+    max-width: 125px;
+    margin-top: 5px;
+}
+.blockquote{
+    display: flex;
+    flex-wrap: wrap;    
+}
+blockquote{
+    display: flex;
+    flex-wrap: wrap;  
+    max-width: 45%; 
+    vertical-align: top; 
+    padding-left:35px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.left-side{
+    border-right: 3px solid lightgray;
+    max-width: 45%;
+    padding-right: 32px;
+}
+.right-side{
+   font-style: italic;
+    color: darkgray;
+    margin-top: -18px;
+
+}
+.author{
+    float: right;
+}
+@media (max-width: 500px){
+    body::after{
+        font-size: 12px;
+    }
+}
+@media(min-width: 500px){
+    body::after{
+        font-size: 14px;
+    }
+}
+@media(min-width: 600px){
+    body::after{
+        font-size: 16px;
+    }
+}
+@media(min-width: 800px){
+    body::after{
+        font-size: 18px;
+    }
+}
+@media(min-width: 1200px){
+    body::after{
+        font-size: 21px;
+    }
+}
+@media(min-width: 1801px){
+    body::after{
+        font-size: 23px;
+    }
+}
+
